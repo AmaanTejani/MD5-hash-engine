@@ -1,0 +1,20 @@
+## Python Code for MD5
+
+import hashlib
+
+path = input("Enter your path name: ")
+result = hashlib.md5(path).hexdigest()
+print(result)
+
+
+# Note
+Enter your password for MD5 hash in '' or "".
+
+Example:
+Input:'john12345'
+Output: 54058395aab911e9af3795403f0c9571
+
+
+# For details and querry
+Contact me on
+Tejaniamaan97@gmail.com
