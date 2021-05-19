@@ -1,20 +1,15 @@
 ## Python Code for MD5
 
+#!usr/bin/python 
+
 import hashlib
 
-path = input("Enter your path name: ")
-result = hashlib.md5(path).hexdigest()
-print(result)
+f = open("pass.txt")
+for line in f:
+	r = hashlib.md5('line').hexdigest()
+	print(r)
+f.close()
 
 
-# Note
-Enter your password for MD5 hash in '' or "".
-
-Example:
-Input:'john12345'
-Output: 54058395aab911e9af3795403f0c9571
-
-
-# For details and querry
-Contact me on
-Tejaniamaan97@gmail.com
+## NOTE
+It will convert every single password to md5 hash for cracking.
