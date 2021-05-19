@@ -2,7 +2,8 @@
 
 ## Note
 
-Manually typing hash giving accurate results but inserting pass.txt list showing some errors.
-Work is currently on test.
+Enter file name or file path which you wnat to convert in md5 hash.
+
+Thank you
 
 # Have patience
